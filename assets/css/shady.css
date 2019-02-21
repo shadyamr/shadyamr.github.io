@@ -8,6 +8,7 @@
 
  body {
     background-image: url(../img/cream_pixels.png);
+    cursor: url("../img/cursor.png"), auto;
     font-family: 'Lato', sans-serif;
     margin-left: 0px;
 	margin-right: 0px;
@@ -15,11 +16,11 @@
 	overflow:hidden;
  }
 
-/* unvisited link */
 a:link, a:visited, a:hover, a:active
 {
     color: #fff;
     text-decoration: none;
+    cursor: url("../img/cursor.png"), auto;
 }
 
 hr {
