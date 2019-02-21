@@ -16,6 +16,15 @@
 	overflow:hidden;
  }
 
+ ::selection {
+    background: #3a3a3a;
+    background-color: rgba(58, 58, 58, 0.4);
+}
+::-moz-selection {
+    background: #3a3a3a;
+    background-color: rgba(58, 58, 58, 0.4);
+}
+
 a:link, a:visited, a:hover, a:active
 {
     color: #fff;
@@ -171,7 +180,7 @@ p {
     color: #fafafa;
     /* CSS Transitions */
     -webkit-transition: background-color: 0.15s;
-            transition: background-color: 0.15s;
+    transition: background-color: 0.15s;
 }
 
 .navbar-default .navbar-nav > li:nth-child(even) > a {
