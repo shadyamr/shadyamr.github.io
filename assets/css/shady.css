@@ -1,22 +1,82 @@
- @import url(bootstrap.min.css);
- @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
- @import url(http://fonts.googleapis.com/css?family=Poiret+One);
- @import url(http://fonts.googleapis.com/css?family=Abel);
- @import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
+@import url(bootstrap.min.css);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 
  body {
     background-image: url(../img/cream_pixels.png);
-    /* Margin & Padding */
-    margin-bottom: 20px;
-    /* Font */
     font-family: 'Lato', sans-serif;
+    margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	overflow:hidden;
  }
 
- /*.container a, .container a:link, .container a:visited, .container a:hover {
-    /* Font */
-    /*color: #60b685;
+/* unvisited link */
+a:link, a:visited, a:hover, a:active
+{
+    color: #fff;
     text-decoration: none;
- }*/
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+p {
+    font-family: 13px 'Open Sans', sans-serif;
+	color: #fff;
+}
+
+ .containeri {
+	padding: 10px;
+	background: #60b685;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.containerii {
+	padding: 10px;
+	background: #6d93b3;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.containeri h1 {
+	font-family: "Fjalla One", sans-serif;
+	font-size: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 0px;
+	margin: 0px;
+}
+
+.containerii h1 {
+	font-family: "Fjalla One", sans-serif;
+	font-size: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	padding: 10px;
+	width: 450px;
+	margin: 0 auto;
+}
+
+.container h1 {
+	font-size: 3.5em;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
 
  h1, h2, h3, h4, h5 {
     /* Margin & Padding */
