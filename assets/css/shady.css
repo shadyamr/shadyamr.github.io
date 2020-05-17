@@ -46,9 +46,8 @@ p {
  .containeri {
 	padding: 10px;
 	background: #60b685;
-	width: 100%;
+	width: 900px;
 	margin: 0 auto;
-	min-width: 800px;
 }
 
 .containerii {
@@ -56,7 +55,12 @@ p {
 	background: #6d93b3;
 	width: 900px;
 	margin: 0 auto;
-	min-width: 400px;
+}
+
+@media screen and (max-width 800px) {
+	.containeri, .containerii {
+		width: 100%;	
+	}
 }
 
 .containeri h1 {
