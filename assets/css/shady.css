@@ -593,3 +593,11 @@ input[type="text"].form-control:focus {
   /* Border */
   border: none;
 }
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
