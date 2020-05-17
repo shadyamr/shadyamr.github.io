@@ -48,6 +48,10 @@ p {
 	background: #60b685;
 	width: 900px;
 	margin: 0 auto;
+<<<<<<< HEAD
+=======
+	min-height: 400px;
+>>>>>>> parent of 1a770f3... Update shady.css
 }
 
 .containerii {
@@ -55,12 +59,16 @@ p {
 	background: #6d93b3;
 	width: 900px;
 	margin: 0 auto;
+<<<<<<< HEAD
 }
 
 @media screen and (max-width 800px) {
 	.containeri, .containerii {
 		width: 100%;	
 	}
+=======
+	min-height: 400px;
+>>>>>>> parent of 1a770f3... Update shady.css
 }
 
 .containeri h1 {
